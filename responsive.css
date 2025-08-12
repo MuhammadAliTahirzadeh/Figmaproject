@@ -1,0 +1,38 @@
+@media screen and (max-width: 768px) {
+  body {
+    padding: 5vw; /
+  }
+
+  .right__side {
+    padding: 0 5vw; /
+  }
+
+  .right__side__desc h2 {
+    font-size: clamp(18px, 3vw, 24px); /
+  }
+
+  .right__side__desc p {
+    font-size: clamp(14px, 2.5vw, 16px);
+  }
+
+  #gmail__btn,
+  #register {
+    height: clamp(40px, 6vw, 50px);
+    padding: 1em;
+    font-size: clamp(14px, 2.5vw, 16px);
+  }
+
+  input {
+    font-size: clamp(14px, 2.5vw, 16px);
+    padding: 0.8em;
+  }
+
+  hr {
+    width: 100%;        
+    max-width: 50vw;    
+  }
+
+  .form-group {
+    gap: 3vw; 
+  }
+}
